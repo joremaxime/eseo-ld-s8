@@ -48,4 +48,8 @@ public class DAOConnection {
 		return new String[] { url, user, password };
 	}
 	
+	public void bonjour() {
+		System.out.println("bonjour");
+	}
+	
 }
